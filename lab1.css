@@ -1,14 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
 .site-container {
     margin: 0 auto; 
     border: 1px solid red; 
     width: 90%
-   
 }
 
 header {
-    background-color: blue;
+    padding: 20px; 
+    margin-top: 0; 
+
 }
 
-nav {
+
+
+header.navbar {
+  
+    background-color: #30BEC7;
+   
+}
+
+nav ul {
+    margin: 0; 
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline; 
     
+}
+
+nav ul li a {
+    color: white; 
 }
