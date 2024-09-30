@@ -115,7 +115,8 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgba(48, 190, 199, 1);
+    background-color: #353836;
+    color:white; 
     
   }
   
@@ -127,11 +128,19 @@ nav ul li a {
     height: calc(100vh - 50px);
     width: 100%;
     padding-top: 50px; 
+    font-size: 1.1rem;
   }
   
   .mobile-menu li {
     margin-bottom: 10px;
+    list-style: none;
   }
+  
+  .mobile-menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
   
   @media only screen and (max-width: 620px) {
     header nav {
