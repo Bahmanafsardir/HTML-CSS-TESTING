@@ -14,53 +14,57 @@ body {
 }
 
 header {
-    padding: 20px; 
-    margin-top: 0; 
-
-}
-
-.logo h1 {
-    color: white;
-}
-
-
-
-header.navbar {
-
     width: 100%;
-    background-color: #5c5c5c;
+    padding: 20px; 
+    height: 80px;
+    background-color: #1d1f1d;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid brown; 
 
-   
+
 }
 
-nav.links {
-    width: 70%;
+.logo {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
     font-size: 1.1rem;
-    text-transform: uppercase;
+    margin-left: 5px; 
 }
+
+
+
 
 nav.links ul{ 
-    
+    font-size: 1.1rem;
+    text-transform: uppercase;    
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+   align-items: center;
+   justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem; 
     border: 1px solid;
+    margin-right: 1rem; 
 }
-
-
 
 
 
 nav ul li {
     list-style-type: none;
+    padding: 5px; 
  
+}
 
-    
+
+nav ul li:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+
+
 }
 
 nav ul li a {
