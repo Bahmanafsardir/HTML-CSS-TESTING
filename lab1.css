@@ -29,7 +29,13 @@ header {
     display: flex;
     align-items: center;
     font-size: 1.1rem;
-    margin-left: 10px; 
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+a.current  {
+  border-bottom: 2px solid orangered; 
+  color: orangered;
 }
 
 
@@ -50,6 +56,7 @@ nav.links ul{
 nav ul li {
     list-style-type: none;
     padding: 5px; 
+    letter-spacing: 1px;
  
 }
 
@@ -57,10 +64,6 @@ nav ul li {
 nav ul li:hover {
     transform: scale(1.1);
     transition: 0.2s;
-  
-    
-
-
 }
 
 nav ul li a {
@@ -101,13 +104,15 @@ nav ul li a:hover, nav ul li a:focus {
     /* border: 5px solid; */
 }
 
-/* .content-grid{
+.content-grid{
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
-  border: 5px solid;
-} */
+  border: 3px solid orange;
+  min-height: 400px; 
+
+} 
 
 
 .hi {
@@ -131,16 +136,19 @@ nav ul li a:hover, nav ul li a:focus {
 }
 
 
-/* .main-text {
+ .main-text {
   font-size: 1.6rem;
   text-align: left;
-  margin: 150px 0px 0px 100px;
+  margin: 150px 0px 0px 0px;
   margin-bottom: 300px;
-  max-width: 560px;
-  grid-column: 1 / 4;
+  grid-column: 2 / 3;
   font-weight: 300;
   border: 2px solid green; 
-} */
+}
+
+.main-text h2 {
+  color: orangered; 
+}
 
 
 .portrait {
@@ -333,4 +341,12 @@ nav ul li a:hover, nav ul li a:focus {
     background-size: 57%;
     background-position: 0 0;
   }
+}
+
+
+
+footer {
+  height: 50px; 
+  background-color: black;
+
 }
