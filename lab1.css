@@ -39,6 +39,7 @@ body aside.sidebar {
   height: min-content;
   border-radius: 16px;
   position: sticky;
+  top: 10px; 
   clip-path: polygon(0 10%,
           10% 0,
           90% 0,
