@@ -505,3 +505,91 @@ tr:hover {
   line-height: 20px; /* Vertically center text */
   font-weight: bold;
 }
+
+
+
+
+
+
+
+/* Start of project grid */
+
+.project-grid {
+  display: grid;
+  grid-template-areas:
+    "alice babyoncouch thezeitgeist"; 
+  
+  grid-gap: 5px;
+  width: 100%;
+  max-width: 1920px;
+  margin: 5px auto;
+}
+
+#alice {
+  grid-area: alice;
+}
+#babyoncouch {
+  grid-area: babyandcouch;
+}
+#thezeitgeist {
+  grid-area: thezeitgeist;
+}
+#astro {
+  grid-area: astro;
+}
+#cube {
+  grid-area: cube;
+}
+#cup {
+  grid-area: cup;
+}
+#insta {
+  grid-area: insta;
+}
+#foam {
+  grid-area: foam;
+}
+#dimensional {
+  grid-area: dimensional;
+}
+
+.project {
+  position: relative;
+}
+
+.project img {
+  width: 100%;
+  object-fit: cover; 
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .project-grid {
+    max-width: 100%;
+    grid-template-areas:
+      "eth eth"
+      "alphabet traveler"
+      "astro cube"
+      "insta insta"
+      "cup foam"
+      "dimensional dimensional";
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-grid {
+    grid-template-areas:
+      "eth eth"
+      "alphabet alphabet"
+      "traveler traveler"
+      "astro cube"
+      "insta insta"
+      "cup cup"
+      "foam foam"
+      "dimensional dimensional";
+  }
+  .project .overlay {
+    font-size: 24px;
+  }
+}
