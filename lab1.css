@@ -70,7 +70,8 @@ body aside.sidebar nav {
 
 .sidebar h3 {
   font-weight: 500;
-  color: black;
+  color: orangered;
+  margin-top: 10px; 
 }
 
 
