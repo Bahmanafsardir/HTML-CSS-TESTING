@@ -326,13 +326,15 @@ small {
   text-align: left;
   margin: 50px 0px 0px 0px;
   grid-column: 2 / 3;
-  height: calc(100vh - 209px);
+  /* height: calc(100vh - 209px); */
 }
 
 .main-text-form form {
   margin-top: 25px; 
   margin-bottom: 140px; 
 }
+
+
 
 
 .form-group {
@@ -657,6 +659,7 @@ article.main-text {
     align-items: center;
     text-align: center;
     padding: 0px 0px 8px 0;
+   
   }
   .insta {
    display: none; 
@@ -670,6 +673,18 @@ article.main-text {
 
 
 }
+
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+
+  footer{
+    height: auto; /* Gör höjden dynamisk */
+  }
+
+
+
+
+}
+
 
 
 
