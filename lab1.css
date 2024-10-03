@@ -326,6 +326,7 @@ small {
   text-align: left;
   margin: 50px 0px 0px 0px;
   grid-column: 2 / 3;
+  height: 100vh;
 
 
 }
