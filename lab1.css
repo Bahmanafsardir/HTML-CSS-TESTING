@@ -278,19 +278,84 @@ nav ul li a:hover, nav ul li a:focus {
   max-width: 570px;
 }
 
+/* FORM START */
+.main-text-form {
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 50px 0px 0px 0px;
+  margin-bottom: 150px;
+  grid-column: 2 / 3;
+}
+
+.main-text-form form {
+  margin-top: 25px; 
+}
 
 
-.main-text > h2 {
+.form-group {
+  margin-bottom: 15px; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: 1px solid red; 
+
+}
+
+
+textarea {
+  resize: none;
+}
+
+.form-actions {
+  text-align: center; 
+}
+
+button {
+  background-color: #11223a; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: orangered; 
+}
+
+/* FORM END */
+
+
+
+.main-text > h2, .main-text-form > h2 {
   color: orangered;
   margin-top: 50px;
   margin-bottom: 0px;
   font-size: 1.4rem;
 }
 
-/* .main-text > h2 + p {
-  margin-top: 6px;
 
-} */
+
 
 
 .portrait {
