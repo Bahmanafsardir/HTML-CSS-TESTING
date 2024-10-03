@@ -433,6 +433,7 @@ button:hover {
     width: 100%;
     padding-top: 50px; 
     font-size: 1.1rem;
+    z-index: 100;
   }
   
   .mobile-menu li {
