@@ -184,7 +184,8 @@ footer {
 
 small {
   color: white;
-  font-size: 1rem; 
+  font-size: 1rem;
+  margin-left: 10px; 
 }
 
 
@@ -283,12 +284,13 @@ nav ul li a:hover, nav ul li a:focus {
   font-size: 1.2rem;
   text-align: left;
   margin: 50px 0px 0px 0px;
-  margin-bottom: 150px;
   grid-column: 2 / 3;
+  height: calc(100vh - 209px);
 }
 
 .main-text-form form {
   margin-top: 25px; 
+  margin-bottom: 140px; 
 }
 
 
