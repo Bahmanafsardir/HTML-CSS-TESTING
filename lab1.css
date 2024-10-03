@@ -442,13 +442,14 @@ button:hover {
   }
   
   .mobile-menu li {
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
     list-style: none;
   }
   
   .mobile-menu li a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
+    padding: 5px; 
   }
 
 
