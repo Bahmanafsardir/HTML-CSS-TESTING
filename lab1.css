@@ -681,10 +681,10 @@ article.main-text {
       max-width: 100%; 
       grid-template-columns: 100%; 
       grid-template-areas:
-        "alice babyoncouch"
-        "invasion castleinthesky"
-        "boyinthewoods thezeitgeist"
-        "redhood dragonwarrior"
+        "alice" "babyoncouch"
+        "invasion" "castleinthesky"
+        "boyinthewoods" "thezeitgeist"
+        "redhood" "dragonwarrior"
         "bearcub";
        
     }
