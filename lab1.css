@@ -230,13 +230,10 @@ nav ul li a:hover, nav ul li a:focus {
     /* grid-template-rows: repeat(3, auto); */
     /* grid-template-columns: 2fr 1fr; */
 
-    grid-template-columns: 1fr 1fr; /* Ändra till lika stora kolumner */
-    justify-items: center; /* Centrera horisontellt */
-    align-items: center;    /* Centrera vertikalt */
-    height: 100vh;          /* Fyll hela höjden av viewporten för centering */
-  
-
-    /* border: 5px solid; */
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;    
+    height: 100vh;  
 }
 
 .content-grid{
