@@ -326,7 +326,8 @@ small {
   text-align: left;
   margin: 50px 0px 0px 0px;
   grid-column: 2 / 3;
-  /* height: calc(100vh - 209px); */
+
+
 }
 
 .main-text-form form {
