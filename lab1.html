@@ -1,72 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="lab1.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="lab1.css" />
     <title>Bahman Afsardir - Lab 1</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--    Start of the main site-continer-->
     <div class="site-container">
-        <header class="navbar">
-            <div id="lab1"><h1 class="rainbow-text"><a href="lab1.html">LAB 1</a></h1></div>
-            <nav class="links">
-                <ul>
-                    <li><a class="current" href="lab1.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <!--    Start of the hamburger menu-->
-                <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                    <ul class="mobile-menu">
-                        <li><a class="current" href="lab1.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- Ending of the hamburger icon-->
+      <header class="navbar">
+        <div id="lab1">
+          <h1 class="rainbow-text"><a href="lab1.html">LAB 1</a></h1>
+        </div>
+        <nav class="links">
+          <ul>
+            <li><a class="current" href="lab1.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!--    Start of the hamburger menu-->
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a class="current" href="lab1.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Ending of the hamburger icon-->
+      </header>
 
-        </header>
+      <main>
+        <!--    Start of content-grid-->
+        <div class="content-grid-intro">
+          <!-- Start of main text content   -->
+          <article class="main-text-intro">
+            <h2 class="hi">Hi, I'm Bahman Afsardir.</h2>
+            <p>I like movies, video games, graphic design & photography.</p>
+          </article>
 
-        <main>
-            <!--    Start of content-grid-->
-            <div class="content-grid-intro">
-                
-                <!-- Start of main text content   -->
-                <article class="main-text-intro">
-                    <h2 class="hi">Hi, I'm Bahman.</h2>
-                    <p>I like movies, video games, graphic design & photography.</p>
+          <!-- End of main text content   -->
 
-                </article>
+          <!-- Start of the illustration portrait  -->
+          <section class="portrait">
+            <img src="images/illu_portrait-stor.png" alt="illustration of me in black and white" />
+          </section>
 
-                  <!-- End of main text content   -->
-
-                  <!-- Start of the illustration portrait  -->
-                   <section class="portrait">
-                    <img src="images/illu_portrait-stor.png" alt="illustration of me in black and white">
-                   </section>
-
-                  <!-- End of the illustration portrait section  -->
-
-            </div>
-            <!--    End of content grid-->
-
-
-        </main>
-
+          <!-- End of the illustration portrait section  -->
+        </div>
+        <!--    End of content grid-->
+      </main>
     </div>
-<!-- End of main site-container--> 
+    <!-- End of main site-container-->
 
-<script src="lab1.js"></script>   
-</body>
+    <script src="lab1.js"></script>
+  </body>
 </html>
